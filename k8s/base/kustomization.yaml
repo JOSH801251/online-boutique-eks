@@ -14,3 +14,37 @@ resources:
   - recommendationservice.yaml
   - shippingservice.yaml
   
+images:
+  - name: adservice
+    newName: joshv69517/adservice
+    newTag: v0.10.6
+  - name: cartservice
+    newName: joshv69517/cartservice
+    newTag: v0.10.6
+  - name: checkoutservice
+    newName: joshv69517/checkoutservice
+    newTag: v0.10.6
+  - name: currencyservice
+    newName: joshv69517/currencyservice
+    newTag: v0.10.6
+  - name: emailservice
+    newName: joshv69517/emailservice
+    newTag: v0.10.6
+  - name: frontend
+    newName: joshv69517/frontend
+    newTag: v0.10.6
+  - name: loadgenerator
+    newName: joshv69517/loadgenerator
+    newTag: v0.10.6
+  - name: paymentservice
+    newName: joshv69517/paymentservice
+    newTag: v0.10.6
+  - name: productcatalogservice
+    newName: joshv69517/productcatalogservice
+    newTag: v0.10.6
+  - name: recommendationservice
+    newName: joshv69517/recommendationservice
+    newTag: v0.10.6
+  - name: shippingservice
+    newName: joshv69517/shippingservice
+    newTag: v0.10.6

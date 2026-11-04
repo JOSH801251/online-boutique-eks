@@ -1,0 +1,44 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+
+# Kubernetes credentials
+kubeconfig
+**/kubeconfig
+*.kubeconfig
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Windows and editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local binaries
+kubectl.exe
+kind.exe
+minikube.exe
+
+# Upstream source clone kept locally
+/microservices-demo/
+
+# Optional Google Cloud service
+/src/shoppingassistantservice/

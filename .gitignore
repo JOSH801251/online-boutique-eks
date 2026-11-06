@@ -1,12 +1,19 @@
+
 # Terraform
 **/.terraform/
 *.tfstate
 *.tfstate.*
 *.tfvars
 !*.tfvars.example
+*.tfplan
+*.plan
+*.tflock
+.terraform.tfstate.lock.info
 crash.log
 override.tf
 override.tf.json
+.terraformrc
+terraform.rc
 
 # Kubernetes credentials
 kubeconfig
@@ -19,7 +26,14 @@ kubeconfig
 !.env.example
 *.pem
 *.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.secret
+*.secrets
 secrets/
+.aws/
 
 # Logs and temporary files
 *.log

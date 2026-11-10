@@ -56,3 +56,11 @@ minikube.exe
 
 # Optional Google Cloud service
 /src/shoppingassistantservice/
+
+# Gradle generated files
+**/.gradle/
+**/build/
+
+# Local CI workflow logs
+workflow-logs.txt
+**/workflow-logs.txt

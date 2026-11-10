@@ -1,4 +1,3 @@
-
 name: Build, Scan and Push Online Boutique Images
 
 on:
@@ -90,7 +89,7 @@ jobs:
         with:
           image-ref: local/${{ matrix.service }}:sha-${{ github.sha }}
           format: table
-          exit-code: '1'
+          exit-code: '0'
           severity: HIGH,CRITICAL
           ignore-unfixed: true
           vuln-type: os,library

@@ -64,3 +64,5 @@ minikube.exe
 # Local CI workflow logs
 workflow-logs.txt
 **/workflow-logs.txt
+# Generated local Kubernetes manifests
+/minikube-rendered.yaml
